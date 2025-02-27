@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <usb-device vendor-id="9538" product-id="4128" /> <!-- 0x2542, 0x1020 -->
+
+</resources>
+
+<!--  이 파일은 특정 USB 디바이스를 식별하는데 사용됩니다. vendor-id와 product-id는 각각 VID(0x2542)와 PID(0x1020)의 10진수 값.  -->
