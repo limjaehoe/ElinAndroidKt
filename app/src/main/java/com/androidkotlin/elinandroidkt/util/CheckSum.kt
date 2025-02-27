@@ -1,10 +1,12 @@
 package com.androidkotlin.elinandroidkt.util
 
+import javax.inject.Inject
+
 /**
  * CRC-16 Kermit 체크섬 계산을 위한 유틸리티 클래스
  * 레거시 CheckSum 클래스를 코틀린으로 변환한 버전
  */
-class CheckSum {
+class CheckSum @Inject constructor()  {
 
     /**
      * CRC-16 Kermit 알고리즘을 사용하여 체크섬 계산

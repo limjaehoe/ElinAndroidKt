@@ -1,8 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    kotlin("kapt")
     alias(libs.plugins.hilt)
+    kotlin("kapt")
 }
 
 android {
@@ -61,4 +61,8 @@ dependencies {
 
 kapt {
     correctErrorTypes = true
+    javacOptions {
+        option("-Adagger.hilt.android.internal.disableAndroidSuperclassValidation=true")
+        option("-Adagger.fastInit=ENABLED")
+    }
 }
