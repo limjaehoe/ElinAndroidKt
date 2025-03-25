@@ -5,8 +5,8 @@ kotlin = "1.9.24"
 hilt = "2.51.1"
 
 # SDK & JDK settings
-compileSdk = "34"
-targetSdk = "34"
+compileSdk = "35"
+targetSdk = "35"
 minSdk = "24"
 javaVersion = "17"
 
@@ -29,6 +29,7 @@ mockito-kotlin = "5.0.0"
 kotlinx-coroutines-test = "1.7.3"  # coroutines 버전과 맞춤
 turbine = "1.0.0"
 arch-testing = "2.2.0"
+activity = "1.10.1"
 
 [libraries]
 # AndroidX
@@ -63,6 +64,7 @@ mockito-kotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", versio
 kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinx-coroutines-test" }
 turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
 androidx-arch-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "arch-testing" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

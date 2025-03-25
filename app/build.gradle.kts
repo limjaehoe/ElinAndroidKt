@@ -50,6 +50,7 @@ dependencies {
 
     // Hilt
     implementation(libs.hilt.android)
+    implementation(libs.androidx.activity)
     kapt(libs.hilt.compiler)
 
     // Testing - using bundles
@@ -57,6 +58,13 @@ dependencies {
     testImplementation(libs.bundles.unit.testing)
 
     testImplementation("org.robolectric:robolectric:4.9")
+
+    // Navigation Compose
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+
+    // DataStore 의존성 추가
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+    implementation("androidx.datastore:datastore-preferences-core:1.0.0")
 }
 
 kapt {
