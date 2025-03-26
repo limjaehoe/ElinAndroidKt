@@ -1,4 +1,4 @@
-package com.androidkotlin.elinandroidkt.data
+package com.androidkotlin.elinandroidkt.data.system
 
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.MutableSharedFlow

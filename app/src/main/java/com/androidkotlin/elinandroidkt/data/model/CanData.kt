@@ -1,4 +1,4 @@
-package com.androidkotlin.elinandroidkt.data
+package com.androidkotlin.elinandroidkt.data.model
 
 data class CanData(
     val id: Int,

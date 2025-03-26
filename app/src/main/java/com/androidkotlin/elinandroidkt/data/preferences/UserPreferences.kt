@@ -1,4 +1,4 @@
-package com.androidkotlin.elinandroidkt.data
+package com.androidkotlin.elinandroidkt.data.preferences
 
 data class UserPreferences(
     val isDebugMode: Boolean = false,

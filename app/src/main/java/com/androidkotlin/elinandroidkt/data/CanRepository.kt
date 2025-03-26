@@ -13,7 +13,10 @@ import android.hardware.usb.UsbInterface
 import android.hardware.usb.UsbManager
 import android.os.Build
 import android.util.Log
-import com.androidkotlin.elinandroidkt.domain.CanCommunication
+import com.androidkotlin.elinandroidkt.data.model.CanData
+import com.androidkotlin.elinandroidkt.data.model.CanUsbConstants
+import com.androidkotlin.elinandroidkt.data.model.CommunicationResult
+import com.androidkotlin.elinandroidkt.domain.communication.CanCommunication
 import com.androidkotlin.elinandroidkt.util.CheckSum
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.CoroutineDispatcher

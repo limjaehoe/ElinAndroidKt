@@ -1,12 +1,11 @@
-package com.androidkotlin.elinandroidkt.presentation
+package com.androidkotlin.elinandroidkt.presentation.can
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.androidkotlin.elinandroidkt.data.CanData
-import com.androidkotlin.elinandroidkt.data.CanRepository
-import com.androidkotlin.elinandroidkt.data.CommunicationResult
-import com.androidkotlin.elinandroidkt.domain.CanCommunication
+import com.androidkotlin.elinandroidkt.data.model.CanData
+import com.androidkotlin.elinandroidkt.data.model.CommunicationResult
+import com.androidkotlin.elinandroidkt.domain.communication.CanCommunication
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

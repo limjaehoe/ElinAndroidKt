@@ -1,7 +1,7 @@
 package com.androidkotlin.elinandroidkt.di
 
 import com.androidkotlin.elinandroidkt.data.CanRepository
-import com.androidkotlin.elinandroidkt.domain.CanCommunication
+import com.androidkotlin.elinandroidkt.domain.communication.CanCommunication
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

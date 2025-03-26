@@ -1,6 +1,6 @@
-package com.androidkotlin.elinandroidkt.domain
+package com.androidkotlin.elinandroidkt.domain.communication
 
-import com.androidkotlin.elinandroidkt.data.CommunicationResult
+import com.androidkotlin.elinandroidkt.data.model.CommunicationResult
 import kotlinx.coroutines.flow.Flow
 
 interface TcpCommunication {

@@ -1,6 +1,6 @@
-package com.androidkotlin.elinandroidkt.domain
+package com.androidkotlin.elinandroidkt
 
-import com.androidkotlin.elinandroidkt.data.UserPreferences
+import com.androidkotlin.elinandroidkt.data.preferences.UserPreferences
 import kotlinx.coroutines.flow.Flow
 
 interface UserPreferencesRepository {

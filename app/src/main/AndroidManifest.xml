@@ -19,7 +19,7 @@
         android:theme="@style/Theme.ElinAndroidKt"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.SettingsActivity"
+            android:name=".presentation.settings.SettingsActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

@@ -1,9 +1,10 @@
 package com.androidkotlin.elinandroidkt.presentation
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.androidkotlin.elinandroidkt.data.CanData
-import com.androidkotlin.elinandroidkt.data.CommunicationResult
-import com.androidkotlin.elinandroidkt.domain.CanCommunication
+import com.androidkotlin.elinandroidkt.data.model.CanData
+import com.androidkotlin.elinandroidkt.data.model.CommunicationResult
+import com.androidkotlin.elinandroidkt.domain.communication.CanCommunication
+import com.androidkotlin.elinandroidkt.presentation.can.CanViewModel
 import junit.framework.TestCase.assertEquals
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -18,11 +19,9 @@ import org.junit.After
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.junit.runner.RunWith
 import org.mockito.kotlin.mock
 import org.mockito.kotlin.verify
 import org.mockito.kotlin.whenever
-import org.robolectric.RobolectricTestRunner
 
 @ExperimentalCoroutinesApi
 class CanViewModelTest {
